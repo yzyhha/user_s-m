@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis?ussUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password:
+mybatis:
+  type-aliases-package: com.yzy.pojo
+  mapper-locations: classpath:mybatis/mapper/UserMapper.xml # 指定XXXXMapper.xml配置文件所在目录
+
+
